@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Segoe UI', sans-serif;
+	background-color: #111;
+	color: #f5f5f5;
+	padding: 20px;
+	background-image: url('/Images/GameImg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center
+}
+
+.container {
+	max-width: 700px;
+	margin: auto;
+}
+
+#chatbox {
+	height: 400px;
+	overflow-y: auto;
+	border-radius: 10px; 
+	margin-bottom: 10px;
+	font-size: 20px;
+	background: rgba(255, 255, 255, 0.1); /* semi-transparent background */
+	backdrop-filter: blur(1px); /* frosted glass blur */
+	border: 1px solid;
+	border-image: linear-gradient(135deg, white, white) 1;
+	border: 5px solid rgba(white); /* light border for contrast */
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* soft shadow */
+	color: white;
+}
+
+.player {
+	color: #070056;
+	margin-top: 10px;
+}
+
+.dm {
+	color: #f1fa8c;
+	margin: 10px 0;
+}
+
+.input-form {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+}
+
+.input-form input[type="text"] {
+	flex: 1;
+	padding: 10px;
+	font-size: 1em;
+	border-radius: 5px;
+	border: none;
+	min-width: 200px;
+}
+
+#sendBtn {
+	background-color: #50fa7b;
+	color: #000;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.button-group {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+#newgame-button {
+	background-color:rgb(255, 128, 0);
+	color: #000;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+#previousStories-button {
+	background-color: rgb(128, 0, 128);
+	color: #000;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+h1{
+	color: black;
+	text-align: center;
+}
