@@ -122,6 +122,7 @@ public class InteractionController {
    @RequestMapping("/delete")
    public String DeleteStory(@RequestParam("sessionId") String id , Model m) {
 	   repo.deleteById(id);
+	   m.addAttribute("data", repo.findAll());
 	   return "AllStories";
    }
     
